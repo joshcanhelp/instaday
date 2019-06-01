@@ -1,0 +1,40 @@
+{
+  "name": "instaday",
+  "description": "Create a Day One import file from an Instagram backup",
+  "version": "0.0.0",
+  "author": "Josh Cunningham @joshcanhelp",
+  "bin": {
+    "instaday": "./bin/run"
+  },
+  "bugs": "https://github.com/joshcanhelp/instaday/issues",
+  "dependencies": {
+    "@oclif/command": "^1.5.4",
+    "@oclif/config": "^1.8.8",
+    "@oclif/plugin-help": "^2.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-oclif": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://github.com/joshcanhelp/instaday",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "bin": "instaday"
+  },
+  "repository": "joshcanhelp/instaday",
+  "scripts": {
+    "posttest": "eslint .",
+    "test": "echo NO TESTS"
+  }
+}
